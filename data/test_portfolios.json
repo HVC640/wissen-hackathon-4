@@ -1,0 +1,604 @@
+{
+  "portfolios": [
+    {
+      "portfolio_id": "PORT-2026-0001",
+      "fund_name": "Alpha Growth Opportunities Fund",
+      "fund_type": "Multi-Asset - Long Only",
+      "submitted_date": "2026-07-11T09:15:32Z",
+      "nav_value": 50000000,
+      "risk_limits": {
+        "single_issuer_max": 8.0,
+        "sector_max": 25.0,
+        "geography_max": 70.0,
+        "correlation_threshold": 0.85,
+        "volatility_threshold": 0.40
+      },
+      "holdings": [
+        {
+          "symbol": "RIL",
+          "issuer": "Reliance Industries Ltd",
+          "asset_class": "Equity",
+          "sector": "Energy",
+          "geography": "India",
+          "position_value": 4900000,
+          "percentage_nav": 9.8,
+          "volatility_30day": 0.42,
+          "rolling_correlation": [
+            {"with_symbol": "TCS", "correlation": 0.62},
+            {"with_symbol": "INFY", "correlation": 0.58}
+          ]
+        },
+        {
+          "symbol": "TCS",
+          "issuer": "Tata Consultancy Services",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "India",
+          "position_value": 2500000,
+          "percentage_nav": 5.0,
+          "volatility_30day": 0.28,
+          "rolling_correlation": [
+            {"with_symbol": "INFY", "correlation": 0.88},
+            {"with_symbol": "RIL", "correlation": 0.62}
+          ]
+        },
+        {
+          "symbol": "INFY",
+          "issuer": "Infosys Limited",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "India",
+          "position_value": 2400000,
+          "percentage_nav": 4.8,
+          "volatility_30day": 0.26,
+          "rolling_correlation": [
+            {"with_symbol": "TCS", "correlation": 0.88},
+            {"with_symbol": "RIL", "correlation": 0.58}
+          ]
+        },
+        {
+          "symbol": "HDFC",
+          "issuer": "HDFC Bank Limited",
+          "asset_class": "Equity",
+          "sector": "Financials",
+          "geography": "India",
+          "position_value": 3200000,
+          "percentage_nav": 6.4,
+          "volatility_30day": 0.32,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "MARUTI",
+          "issuer": "Maruti Suzuki India Ltd",
+          "asset_class": "Equity",
+          "sector": "Automobiles",
+          "geography": "India",
+          "position_value": 2800000,
+          "percentage_nav": 5.6,
+          "volatility_30day": 0.35,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BHARTIARTL",
+          "issuer": "Bharti Airtel Limited",
+          "asset_class": "Equity",
+          "sector": "Telecom",
+          "geography": "India",
+          "position_value": 2100000,
+          "percentage_nav": 4.2,
+          "volatility_30day": 0.38,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "POWERGRID",
+          "issuer": "Power Grid Corporation of India",
+          "asset_class": "Equity",
+          "sector": "Energy",
+          "geography": "India",
+          "position_value": 6200000,
+          "percentage_nav": 12.4,
+          "volatility_30day": 0.22,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-IND-5Y",
+          "issuer": "Government of India 5Y Bond",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "India",
+          "position_value": 18900000,
+          "percentage_nav": 37.8,
+          "volatility_30day": 0.08,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "CASH-INR",
+          "issuer": "Cash Reserve",
+          "asset_class": "Cash",
+          "sector": "Cash",
+          "geography": "India",
+          "position_value": 7900000,
+          "percentage_nav": 15.8,
+          "volatility_30day": 0.0,
+          "rolling_correlation": []
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0002",
+      "fund_name": "Global Equity Diversified Fund",
+      "fund_type": "Equity - Global",
+      "submitted_date": "2026-07-11T10:45:22Z",
+      "nav_value": 75000000,
+      "risk_limits": {
+        "single_issuer_max": 7.0,
+        "sector_max": 20.0,
+        "geography_max": 40.0,
+        "correlation_threshold": 0.80,
+        "volatility_threshold": 0.35
+      },
+      "holdings": [
+        {
+          "symbol": "AAPL",
+          "issuer": "Apple Inc",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 6000000,
+          "percentage_nav": 8.0,
+          "volatility_30day": 0.32,
+          "rolling_correlation": [
+            {"with_symbol": "MSFT", "correlation": 0.75},
+            {"with_symbol": "GOOGL", "correlation": 0.72}
+          ]
+        },
+        {
+          "symbol": "MSFT",
+          "issuer": "Microsoft Corporation",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geometry": "USA",
+          "position_value": 5500000,
+          "percentage_nav": 7.33,
+          "volatility_30day": 0.28,
+          "rolling_correlation": [
+            {"with_symbol": "AAPL", "correlation": 0.75},
+            {"with_symbol": "GOOGL", "correlation": 0.78}
+          ]
+        },
+        {
+          "symbol": "GOOGL",
+          "issuer": "Alphabet Inc",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 5200000,
+          "percentage_nav": 6.93,
+          "volatility_30day": 0.30,
+          "rolling_correlation": [
+            {"with_symbol": "AAPL", "correlation": 0.72},
+            {"with_symbol": "MSFT", "correlation": 0.78}
+          ]
+        },
+        {
+          "symbol": "SAP",
+          "issuer": "SAP SE",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "Germany",
+          "position_value": 4000000,
+          "percentage_nav": 5.33,
+          "volatility_30day": 0.25,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "NESTLE",
+          "issuer": "Nestle SA",
+          "asset_class": "Equity",
+          "sector": "Consumer Staples",
+          "geography": "Switzerland",
+          "position_value": 4500000,
+          "percentage_nav": 6.0,
+          "volatility_30day": 0.18,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "ASML",
+          "issuer": "ASML Holding NV",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "Netherlands",
+          "position_value": 3800000,
+          "percentage_nav": 5.07,
+          "volatility_30day": 0.36,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "SHELL",
+          "issuer": "Shell plc",
+          "asset_class": "Equity",
+          "sector": "Energy",
+          "geography": "UK",
+          "position_value": 4200000,
+          "percentage_nav": 5.6,
+          "volatility_30day": 0.40,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-US-10Y",
+          "issuer": "US Treasury 10Y",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "USA",
+          "position_value": 22000000,
+          "percentage_nav": 29.33,
+          "volatility_30day": 0.12,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-EUR-5Y",
+          "issuer": "European Government Bond 5Y",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "Europe",
+          "position_value": 15700000,
+          "percentage_nav": 20.93,
+          "volatility_30day": 0.10,
+          "rolling_correlation": []
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0003",
+      "fund_name": "Fixed Income Portfolio",
+      "fund_type": "Bond - Conservative",
+      "submitted_date": "2026-07-11T11:30:15Z",
+      "nav_value": 120000000,
+      "risk_limits": {
+        "single_issuer_max": 12.0,
+        "sector_max": 40.0,
+        "geography_max": 60.0,
+        "correlation_threshold": 0.85,
+        "volatility_threshold": 0.25
+      },
+      "holdings": [
+        {
+          "symbol": "BOND-INDIA-10Y",
+          "issuer": "Government of India 10Y Bond",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "India",
+          "position_value": 36000000,
+          "percentage_nav": 30.0,
+          "volatility_30day": 0.15,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-INDIA-5Y",
+          "issuer": "Government of India 5Y Bond",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "India",
+          "position_value": 24000000,
+          "percentage_nav": 20.0,
+          "volatility_30day": 0.12,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-HDFC",
+          "issuer": "HDFC Bank Senior Bonds",
+          "asset_class": "Bond",
+          "sector": "Financials",
+          "geography": "India",
+          "position_value": 18000000,
+          "percentage_nav": 15.0,
+          "volatility_30day": 0.10,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-ICICI",
+          "issuer": "ICICI Bank Senior Bonds",
+          "asset_class": "Bond",
+          "sector": "Financials",
+          "geography": "India",
+          "position_value": 16800000,
+          "percentage_nav": 14.0,
+          "volatility_30day": 0.11,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-RELIANCE",
+          "issuer": "Reliance Industries Bonds",
+          "asset_class": "Bond",
+          "sector": "Energy",
+          "geography": "India",
+          "position_value": 14400000,
+          "percentage_nav": 12.0,
+          "volatility_30day": 0.14,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-INFRA",
+          "issuer": "Infrastructure Development Finance Company",
+          "asset_class": "Bond",
+          "sector": "Infrastructure",
+          "geography": "India",
+          "position_value": 7200000,
+          "percentage_nav": 6.0,
+          "volatility_30day": 0.09,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "CASH-INR-FI",
+          "issuer": "Cash Reserve",
+          "asset_class": "Cash",
+          "sector": "Cash",
+          "geography": "India",
+          "position_value": 3600000,
+          "percentage_nav": 3.0,
+          "volatility_30day": 0.0,
+          "rolling_correlation": []
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0004",
+      "fund_name": "Sector-Concentrated Tech Fund",
+      "fund_type": "Equity - Sector Focused",
+      "submitted_date": "2026-07-11T13:20:45Z",
+      "nav_value": 30000000,
+      "risk_limits": {
+        "single_issuer_max": 10.0,
+        "sector_max": 60.0,
+        "geography_max": 50.0,
+        "correlation_threshold": 0.75,
+        "volatility_threshold": 0.45
+      },
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "issuer": "NVIDIA Corporation",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 3600000,
+          "percentage_nav": 12.0,
+          "volatility_30day": 0.48,
+          "rolling_correlation": [
+            {"with_symbol": "AMD", "correlation": 0.82},
+            {"with_symbol": "TSM", "correlation": 0.79}
+          ]
+        },
+        {
+          "symbol": "AMD",
+          "issuer": "Advanced Micro Devices",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 2700000,
+          "percentage_nav": 9.0,
+          "volatility_30day": 0.52,
+          "rolling_correlation": [
+            {"with_symbol": "NVDA", "correlation": 0.82},
+            {"with_symbol": "TSM", "correlation": 0.85}
+          ]
+        },
+        {
+          "symbol": "TSM",
+          "issuer": "Taiwan Semiconductor Manufacturing",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "Taiwan",
+          "position_value": 2400000,
+          "percentage_nav": 8.0,
+          "volatility_30day": 0.44,
+          "rolling_correlation": [
+            {"with_symbol": "NVDA", "correlation": 0.79},
+            {"with_symbol": "AMD", "correlation": 0.85}
+          ]
+        },
+        {
+          "symbol": "QCOM",
+          "issuer": "Qualcomm Incorporated",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 2100000,
+          "percentage_nav": 7.0,
+          "volatility_30day": 0.40,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BROADCOM",
+          "issuer": "Broadcom Inc",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 1950000,
+          "percentage_nav": 6.5,
+          "volatility_30day": 0.42,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "MCHP",
+          "issuer": "Microchip Technology",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 1650000,
+          "percentage_nav": 5.5,
+          "volatility_30day": 0.38,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "LRCX",
+          "issuer": "Lam Research Corporation",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 1950000,
+          "percentage_nav": 6.5,
+          "volatility_30day": 0.46,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-TECH",
+          "issuer": "Technology Corporate Bonds",
+          "asset_class": "Bond",
+          "sector": "Technology",
+          "geography": "USA",
+          "position_value": 7200000,
+          "percentage_nav": 24.0,
+          "volatility_30day": 0.16,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "CASH-USD",
+          "issuer": "Cash Reserve",
+          "asset_class": "Cash",
+          "sector": "Cash",
+          "geography": "USA",
+          "position_value": 4350000,
+          "percentage_nav": 14.5,
+          "volatility_30day": 0.0,
+          "rolling_correlation": []
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0005",
+      "fund_name": "Emerging Markets Growth Fund",
+      "fund_type": "Equity - Emerging Markets",
+      "submitted_date": "2026-07-11T14:55:30Z",
+      "nav_value": 60000000,
+      "risk_limits": {
+        "single_issuer_max": 6.0,
+        "sector_max": 22.0,
+        "geography_max": 35.0,
+        "correlation_threshold": 0.80,
+        "volatility_threshold": 0.50
+      },
+      "holdings": [
+        {
+          "symbol": "TENCENT",
+          "issuer": "Tencent Holdings Limited",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "China",
+          "position_value": 4200000,
+          "percentage_nav": 7.0,
+          "volatility_30day": 0.45,
+          "rolling_correlation": [
+            {"with_symbol": "ALIBABA", "correlation": 0.68},
+            {"with_symbol": "JD", "correlation": 0.64}
+          ]
+        },
+        {
+          "symbol": "ALIBABA",
+          "issuer": "Alibaba Group Holding Limited",
+          "asset_class": "Equity",
+          "sector": "E-commerce",
+          "geography": "China",
+          "position_value": 3900000,
+          "percentage_nav": 6.5,
+          "volatility_30day": 0.52,
+          "rolling_correlation": [
+            {"with_symbol": "TENCENT", "correlation": 0.68},
+            {"with_symbol": "JD", "correlation": 0.71}
+          ]
+        },
+        {
+          "symbol": "JD",
+          "issuer": "JD.com Inc",
+          "asset_class": "Equity",
+          "sector": "E-commerce",
+          "geography": "China",
+          "position_value": 3000000,
+          "percentage_nav": 5.0,
+          "volatility_30day": 0.48,
+          "rolling_correlation": [
+            {"with_symbol": "TENCENT", "correlation": 0.64},
+            {"with_symbol": "ALIBABA", "correlation": 0.71}
+          ]
+        },
+        {
+          "symbol": "MOBILEYE",
+          "issuer": "Mobileye Global Inc",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "Israel",
+          "position_value": 2400000,
+          "percentage_nav": 4.0,
+          "volatility_30day": 0.42,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "PETROBRAS",
+          "issuer": "Petrobras SA",
+          "asset_class": "Equity",
+          "sector": "Energy",
+          "geography": "Brazil",
+          "position_value": 2700000,
+          "percentage_nav": 4.5,
+          "volatility_30day": 0.55,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "GAZPROM",
+          "issuer": "Gazprom PJSC",
+          "asset_class": "Equity",
+          "sector": "Energy",
+          "geography": "Russia",
+          "position_value": 2100000,
+          "percentage_nav": 3.5,
+          "volatility_30day": 0.68,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "ITUB",
+          "issuer": "Itau Unibanco Holding SA",
+          "asset_class": "Equity",
+          "sector": "Financials",
+          "geography": "Brazil",
+          "position_value": 1800000,
+          "percentage_nav": 3.0,
+          "volatility_30day": 0.38,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "KOPIN",
+          "issuer": "Kopin Corporation",
+          "asset_class": "Equity",
+          "sector": "Technology",
+          "geography": "South Korea",
+          "position_value": 1500000,
+          "percentage_nav": 2.5,
+          "volatility_30day": 0.56,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "BOND-EMERG",
+          "issuer": "Emerging Market Bonds",
+          "asset_class": "Bond",
+          "sector": "Government",
+          "geography": "Emerging Markets",
+          "position_value": 23400000,
+          "percentage_nav": 39.0,
+          "volatility_30day": 0.20,
+          "rolling_correlation": []
+        },
+        {
+          "symbol": "CASH-MULTI",
+          "issuer": "Cash Reserve",
+          "asset_class": "Cash",
+          "sector": "Cash",
+          "geography": "Multiple",
+          "position_value": 15300000,
+          "percentage_nav": 25.5,
+          "volatility_30day": 0.0,
+          "rolling_correlation": []
+        }
+      ]
+    }
+  ]
+}

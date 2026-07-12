@@ -1,0 +1,346 @@
+{
+  "expected_alerts": [
+    {
+      "portfolio_id": "PORT-2026-0001",
+      "portfolio_name": "Alpha Growth Opportunities Fund",
+      "expected_alerts": [
+        {
+          "alert_type": "SINGLE_ISSUER_BREACH",
+          "breach_detail": {
+            "issuer": "Reliance Industries Ltd",
+            "symbol": "RIL",
+            "actual_percentage": 9.8,
+            "limit": 8.0,
+            "breach_amount": 1.8,
+            "status": "BREACH"
+          },
+          "severity": "HIGH",
+          "confidence": 91,
+          "rationale_keywords": [
+            "single-issuer limit breached",
+            "elevated volatility",
+            "historical pattern"
+          ]
+        },
+        {
+          "alert_type": "SECTOR_WARNING",
+          "breach_detail": {
+            "sector": "Energy",
+            "actual_percentage": 22.4,
+            "limit": 25.0,
+            "remaining_capacity": 2.6,
+            "status": "WARNING"
+          },
+          "severity": "MEDIUM",
+          "confidence": 85,
+          "rationale_keywords": [
+            "approaching sector limit",
+            "energy concentration"
+          ]
+        },
+        {
+          "alert_type": "CORRELATION_FLAG",
+          "breach_detail": {
+            "holdings": ["TCS", "INFY"],
+            "correlation": 0.88,
+            "threshold": 0.85,
+            "status": "FLAGGED"
+          },
+          "severity": "MEDIUM",
+          "confidence": 80,
+          "rationale_keywords": [
+            "high correlation cluster",
+            "technology sector concentration"
+          ]
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0002",
+      "portfolio_name": "Global Equity Diversified Fund",
+      "expected_alerts": [
+        {
+          "alert_type": "SINGLE_ISSUER_BREACH",
+          "breach_detail": {
+            "issuer": "Apple Inc",
+            "symbol": "AAPL",
+            "actual_percentage": 8.0,
+            "limit": 7.0,
+            "breach_amount": 1.0,
+            "status": "BREACH"
+          },
+          "severity": "HIGH",
+          "confidence": 88,
+          "rationale_keywords": [
+            "single-issuer breach",
+            "technology exposure",
+            "rebalancing recommended"
+          ]
+        },
+        {
+          "alert_type": "GEOGRAPHY_OK",
+          "breach_detail": {
+            "geography": "USA",
+            "actual_percentage": 35.26,
+            "limit": 40.0,
+            "status": "OK"
+          },
+          "severity": "LOW",
+          "confidence": 95,
+          "rationale_keywords": [
+            "within limits",
+            "well-diversified geography"
+          ]
+        },
+        {
+          "alert_type": "CORRELATION_FLAG",
+          "breach_detail": {
+            "holdings": ["MSFT", "GOOGL"],
+            "correlation": 0.78,
+            "threshold": 0.80,
+            "status": "NEAR_THRESHOLD"
+          },
+          "severity": "LOW",
+          "confidence": 75,
+          "rationale_keywords": [
+            "technology correlation",
+            "monitor for convergence"
+          ]
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0003",
+      "portfolio_name": "Fixed Income Portfolio",
+      "expected_alerts": [
+        {
+          "alert_type": "SECTOR_OK",
+          "breach_detail": {
+            "sector": "Government",
+            "actual_percentage": 50.0,
+            "limit": 40.0,
+            "status": "BREACH"
+          },
+          "severity": "MEDIUM",
+          "confidence": 92,
+          "rationale_keywords": [
+            "government bond concentration",
+            "need to diversify away from sovereigns"
+          ]
+        },
+        {
+          "alert_type": "ISSUER_OK",
+          "breach_detail": {
+            "issuer": "Government of India 10Y Bond",
+            "symbol": "BOND-INDIA-10Y",
+            "actual_percentage": 30.0,
+            "limit": 12.0,
+            "breach_amount": 18.0,
+            "status": "CRITICAL_BREACH"
+          },
+          "severity": "CRITICAL",
+          "confidence": 99,
+          "rationale_keywords": [
+            "severe issuer concentration",
+            "single sovereign exposure exceeds limit significantly",
+            "immediate rebalancing required"
+          ]
+        },
+        {
+          "alert_type": "VOLATILITY_OK",
+          "breach_detail": {
+            "portfolio_volatility": 0.11,
+            "threshold": 0.25,
+            "status": "OK"
+          },
+          "severity": "LOW",
+          "confidence": 95,
+          "rationale_keywords": [
+            "conservative volatility profile",
+            "portfolio risk within bounds"
+          ]
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0004",
+      "portfolio_name": "Sector-Concentrated Tech Fund",
+      "expected_alerts": [
+        {
+          "alert_type": "SINGLE_ISSUER_BREACH",
+          "breach_detail": {
+            "issuer": "NVIDIA Corporation",
+            "symbol": "NVDA",
+            "actual_percentage": 12.0,
+            "limit": 10.0,
+            "breach_amount": 2.0,
+            "status": "BREACH"
+          },
+          "severity": "HIGH",
+          "confidence": 89,
+          "rationale_keywords": [
+            "largest position breaches limit",
+            "high volatility semiconductor stock",
+            "rebalancing recommended"
+          ]
+        },
+        {
+          "alert_type": "SECTOR_OK",
+          "breach_detail": {
+            "sector": "Technology",
+            "actual_percentage": 61.5,
+            "limit": 60.0,
+            "breach_amount": 1.5,
+            "status": "BREACH"
+          },
+          "severity": "MEDIUM",
+          "confidence": 90,
+          "rationale_keywords": [
+            "sector exposure marginally exceeds limit",
+            "technology concentration intended but monitored"
+          ]
+        },
+        {
+          "alert_type": "CORRELATION_CRITICAL",
+          "breach_detail": {
+            "holdings": ["AMD", "TSM"],
+            "correlation": 0.85,
+            "threshold": 0.75,
+            "status": "HIGH_CORRELATION"
+          },
+          "severity": "HIGH",
+          "confidence": 92,
+          "rationale_keywords": [
+            "semiconductor supply chain correlation",
+            "correlated risk cluster",
+            "diversification needed"
+          ]
+        },
+        {
+          "alert_type": "VOLATILITY_WARNING",
+          "breach_detail": {
+            "highest_volatility_issuer": "Gazprom",
+            "volatility": 0.68,
+            "threshold": 0.45,
+            "status": "EXCEEDED"
+          },
+          "severity": "MEDIUM",
+          "confidence": 85,
+          "rationale_keywords": [
+            "high volatility in portfolio",
+            "emerging market risk"
+          ]
+        }
+      ]
+    },
+    {
+      "portfolio_id": "PORT-2026-0005",
+      "portfolio_name": "Emerging Markets Growth Fund",
+      "expected_alerts": [
+        {
+          "alert_type": "SINGLE_ISSUER_BREACH",
+          "breach_detail": {
+            "issuer": "Tencent Holdings Limited",
+            "symbol": "TENCENT",
+            "actual_percentage": 7.0,
+            "limit": 6.0,
+            "breach_amount": 1.0,
+            "status": "BREACH"
+          },
+          "severity": "HIGH",
+          "confidence": 87,
+          "rationale_keywords": [
+            "single-issuer limit breached",
+            "China technology exposure concentrated",
+            "geopolitical risk factors"
+          ]
+        },
+        {
+          "alert_type": "GEOGRAPHY_BREACH",
+          "breach_detail": {
+            "geography": "China",
+            "actual_percentage": 18.5,
+            "limit": 35.0,
+            "status": "OK"
+          },
+          "severity": "LOW",
+          "confidence": 95,
+          "rationale_keywords": [
+            "China concentration within limits",
+            "diversified across sectors"
+          ]
+        },
+        {
+          "alert_type": "CORRELATION_CLUSTER",
+          "breach_detail": {
+            "holdings": ["TENCENT", "ALIBABA", "JD"],
+            "average_correlation": 0.68,
+            "threshold": 0.80,
+            "cluster_size": 3,
+            "status": "MODERATE_CLUSTER"
+          },
+          "severity": "MEDIUM",
+          "confidence": 78,
+          "rationale_keywords": [
+            "China tech sector cluster",
+            "moderate correlation within emerging markets context"
+          ]
+        },
+        {
+          "alert_type": "VOLATILITY_ELEVATED",
+          "breach_detail": {
+            "highest_volatility_issuer": "Gazprom",
+            "volatility": 0.68,
+            "threshold": 0.50,
+            "status": "EXCEEDED"
+          },
+          "severity": "MEDIUM",
+          "confidence": 88,
+          "rationale_keywords": [
+            "elevated portfolio volatility",
+            "expected for emerging markets",
+            "monitor for systemic risk"
+          ]
+        }
+      ]
+    }
+  ],
+  "test_scenarios": [
+    {
+      "scenario_id": "SCENARIO-001",
+      "description": "Normal portfolio with no breaches",
+      "portfolio_id": "PORT-2026-NORMAL",
+      "expected_outcome": "All GREEN - No alerts required"
+    },
+    {
+      "scenario_id": "SCENARIO-002",
+      "description": "Single issuer breach - HIGH severity",
+      "portfolio_id": "PORT-2026-BREACH-HIGH",
+      "expected_outcome": "HIGH alert - Escalate to Risk Desk"
+    },
+    {
+      "scenario_id": "SCENARIO-003",
+      "description": "Multiple concurrent breaches - CRITICAL severity",
+      "portfolio_id": "PORT-2026-CRITICAL",
+      "expected_outcome": "CRITICAL alert - Immediate escalation to CFO and CRO"
+    },
+    {
+      "scenario_id": "SCENARIO-004",
+      "description": "High correlation cluster detected",
+      "portfolio_id": "PORT-2026-CORR",
+      "expected_outcome": "MEDIUM alert - Flag correlated risk"
+    },
+    {
+      "scenario_id": "SCENARIO-005",
+      "description": "Approaching limits (80-95% of threshold)",
+      "portfolio_id": "PORT-2026-WARNING",
+      "expected_outcome": "MEDIUM alert - Monitor and consider rebalancing"
+    },
+    {
+      "scenario_id": "SCENARIO-006",
+      "description": "Extreme volatility in single position",
+      "portfolio_id": "PORT-2026-VOLATILITY",
+      "expected_outcome": "MEDIUM alert - Volatility warning"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+portfolio_id,fund_name,fund_type,submitted_date,nav_value,symbol,issuer,asset_class,sector,geography,position_value,percentage_nav,volatility_30day
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,RIL,Reliance Industries Ltd,Equity,Energy,India,4900000,9.8,0.42
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,TCS,Tata Consultancy Services,Equity,Technology,India,2500000,5.0,0.28
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,INFY,Infosys Limited,Equity,Technology,India,2400000,4.8,0.26
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,HDFC,HDFC Bank Limited,Equity,Financials,India,3200000,6.4,0.32
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,MARUTI,Maruti Suzuki India Ltd,Equity,Automobiles,India,2800000,5.6,0.35
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,BHARTIARTL,Bharti Airtel Limited,Equity,Telecom,India,2100000,4.2,0.38
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,POWERGRID,Power Grid Corporation of India,Equity,Energy,India,6200000,12.4,0.22
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,BOND-IND-5Y,Government of India 5Y Bond,Bond,Government,India,18900000,37.8,0.08
+PORT-2026-0001,Alpha Growth Opportunities Fund,Multi-Asset - Long Only,2026-07-11T09:15:32Z,50000000,CASH-INR,Cash Reserve,Cash,Cash,India,7900000,15.8,0.0
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,AAPL,Apple Inc,Equity,Technology,USA,6000000,8.0,0.32
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,MSFT,Microsoft Corporation,Equity,Technology,USA,5500000,7.33,0.28
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,GOOGL,Alphabet Inc,Equity,Technology,USA,5200000,6.93,0.30
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,SAP,SAP SE,Equity,Technology,Germany,4000000,5.33,0.25
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,NESTLE,Nestle SA,Equity,Consumer Staples,Switzerland,4500000,6.0,0.18
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,ASML,ASML Holding NV,Equity,Technology,Netherlands,3800000,5.07,0.36
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,SHELL,Shell plc,Equity,Energy,UK,4200000,5.6,0.40
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,BOND-US-10Y,US Treasury 10Y,Bond,Government,USA,22000000,29.33,0.12
+PORT-2026-0002,Global Equity Diversified Fund,Equity - Global,2026-07-11T10:45:22Z,75000000,BOND-EUR-5Y,European Government Bond 5Y,Bond,Government,Europe,15700000,20.93,0.10
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-INDIA-10Y,Government of India 10Y Bond,Bond,Government,India,36000000,30.0,0.15
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-INDIA-5Y,Government of India 5Y Bond,Bond,Government,India,24000000,20.0,0.12
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-HDFC,HDFC Bank Senior Bonds,Bond,Financials,India,18000000,15.0,0.10
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-ICICI,ICICI Bank Senior Bonds,Bond,Financials,India,16800000,14.0,0.11
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-RELIANCE,Reliance Industries Bonds,Bond,Energy,India,14400000,12.0,0.14
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,BOND-INFRA,Infrastructure Development Finance Company,Bond,Infrastructure,India,7200000,6.0,0.09
+PORT-2026-0003,Fixed Income Portfolio,Bond - Conservative,2026-07-11T11:30:15Z,120000000,CASH-INR-FI,Cash Reserve,Cash,Cash,India,3600000,3.0,0.0
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,NVDA,NVIDIA Corporation,Equity,Technology,USA,3600000,12.0,0.48
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,AMD,Advanced Micro Devices,Equity,Technology,USA,2700000,9.0,0.52
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,TSM,Taiwan Semiconductor Manufacturing,Equity,Technology,Taiwan,2400000,8.0,0.44
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,QCOM,Qualcomm Incorporated,Equity,Technology,USA,2100000,7.0,0.40
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,BROADCOM,Broadcom Inc,Equity,Technology,USA,1950000,6.5,0.42
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,MCHP,Microchip Technology,Equity,Technology,USA,1650000,5.5,0.38
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,LRCX,Lam Research Corporation,Equity,Technology,USA,1950000,6.5,0.46
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,BOND-TECH,Technology Corporate Bonds,Bond,Technology,USA,7200000,24.0,0.16
+PORT-2026-0004,Sector-Concentrated Tech Fund,Equity - Sector Focused,2026-07-11T13:20:45Z,30000000,CASH-USD,Cash Reserve,Cash,Cash,USA,4350000,14.5,0.0
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,TENCENT,Tencent Holdings Limited,Equity,Technology,China,4200000,7.0,0.45
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,ALIBABA,Alibaba Group Holding Limited,Equity,E-commerce,China,3900000,6.5,0.52
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,JD,JD.com Inc,Equity,E-commerce,China,3000000,5.0,0.48
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,MOBILEYE,Mobileye Global Inc,Equity,Technology,Israel,2400000,4.0,0.42
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,PETROBRAS,Petrobras SA,Equity,Energy,Brazil,2700000,4.5,0.55
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,GAZPROM,Gazprom PJSC,Equity,Energy,Russia,2100000,3.5,0.68
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,ITUB,Itau Unibanco Holding SA,Equity,Financials,Brazil,1800000,3.0,0.38
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,KOPIN,Kopin Corporation,Equity,Technology,South Korea,1500000,2.5,0.56
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,BOND-EMERG,Emerging Market Bonds,Bond,Government,Emerging Markets,23400000,39.0,0.20
+PORT-2026-0005,Emerging Markets Growth Fund,Equity - Emerging Markets,2026-07-11T14:55:30Z,60000000,CASH-MULTI,Cash Reserve,Cash,Cash,Multiple,15300000,25.5,0.0
